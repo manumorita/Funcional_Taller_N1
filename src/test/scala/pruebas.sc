@@ -1,12 +1,16 @@
 import FuncionesRecursivas._
-maxLin(List(3,20,5,4))
-maxIt(List(3,20,5,4))
+maxLin(List(3, 20, 5, 4))
 maxLin(List(42))
-maxIt(List(42))
 maxLin(List(-5, -10, -3, -20))
-maxIt(List(-5, -10, -3, -20))
 maxLin(List(1000, 999, 500, 0, -1))
+maxLin(List(7, 7, 7, 7))
+
+
+maxIt(List(3, 20, 5, 4))
+maxIt(List(42))
+maxIt(List(-5, -10, -3, -20))
 maxIt(List(1000, 999, 500, 0, -1))
+maxIt(List(7, 7, 7, 7))
 
 
 torresHanoi(0,1,2,3)
